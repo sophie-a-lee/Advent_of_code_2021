@@ -14,8 +14,8 @@ sum(abs(crab_pos -  df))
 
 
 #### Part 2 ####
-# Cheapest value under new rules
-crab_pos2 <- round(mean(df)-.1)
+# Cheapest value under new rules (works somehow?)
+crab_pos2 <- floor(mean(df))
 
 
 # Create df with differences from new position
